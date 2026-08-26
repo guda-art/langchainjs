@@ -1,5 +1,11 @@
 # @langchain/google
 
+## 0.2.4
+
+### Patch Changes
+
+- [#11426](https://github.com/langchain-ai/langchainjs/pull/11426) [`2e865ea`](https://github.com/langchain-ai/langchainjs/commit/2e865ea06047d6a71e9fb694dfb0dee5c1a46f4b) Thanks [@thushanth-bengre-langchain](https://github.com/thushanth-bengre-langchain)! - fix: keep image/audio/video content in ToolMessages as sibling Gemini parts instead of losing it inside functionResponse.response.result JSON, and stop double-stringifying non-string tool results ([#10297](https://github.com/langchain-ai/langchainjs/issues/10297), [#10439](https://github.com/langchain-ai/langchainjs/issues/10439))
+
 ## 0.2.3
 
 ### Patch Changes
